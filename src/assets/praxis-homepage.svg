@@ -1,0 +1,1360 @@
+<svg viewBox="0 0 1200 1950" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1200" height="1950" fill="white"/>
+    
+    <!-- Navigation Bar -->
+    <g>
+        <rect width="1200" height="70" fill="white" filter="url(#shadow)"/>
+        
+        <!-- Logo -->
+        <g transform="translate(40,20)">
+            <circle cx="15" cy="15" r="15" fill="#ff7f50"/>
+            <text x="40" y="23" font-family="Arial" font-weight="bold" font-size="20" fill="#1a365d">PRAXIS</text>
+        </g>
+        
+        <!-- Nav Links -->
+        <g transform="translate(200,25)">
+            <text font-family="Arial" font-size="14" fill="#1a365d">Browse</text>
+            <text x="100" font-family="Arial" font-size="14" fill="#1a365d">Categories</text>
+            <text x="200" font-family="Arial" font-size="14" fill="#1a365d">Teach</text>
+            <text x="300" font-family="Arial" font-size="14" fill="#1a365d">Enterprise</text>
+        </g>
+        
+        <!-- Auth Buttons -->
+        <g transform="translate(900,15)">
+            <rect width="100" height="40" rx="20" fill="white" stroke="#1a365d" stroke-width="1"/>
+            <text x="50" y="25" font-family="Arial" font-size="14" fill="#1a365d" text-anchor="middle">Log In</text>
+            
+            <rect x="120" width="100" height="40" rx="20" fill="#ff7f50"/>
+            <text x="170" y="25" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Sign Up</text>
+        </g>
+    </g>
+    
+    <!-- Hero Section -->
+    <g transform="translate(0,70)">
+        <rect width="1200" height="500" fill="#1a365d"/>
+        
+        <!-- Hero Content -->
+        <g transform="translate(100,100)">
+            <text font-family="Arial" font-weight="bold" font-size="48" fill="white">Learn Without Limits</text>
+            <text x="0" y="60" font-family="Arial" font-size="20" fill="white" opacity="0.8">Master new skills from expert instructors</text>
+            
+            <!-- Search Bar -->
+            <rect y="100" width="600" height="60" rx="30" fill="white"/>
+            <text x="30" y="138" font-family="Arial" font-size="16" fill="#4a5568">Search for courses...</text>
+            
+            <!-- Stats -->
+            <g transform="translate(0,200)">
+                <text font-family="Arial" font-weight="bold" font-size="36" fill="#ff7f50">5M+</text>
+                <text x="0" y="30" font-family="Arial" font-size="16" fill="white">Students</text>
+                
+                <text x="200" font-family="Arial" font-weight="bold" font-size="36" fill="#ff7f50">1000+</text>
+                <text x="200" y="30" font-family="Arial" font-size="16" fill="white">Courses</text>
+                
+                <text x="400" font-family="Arial" font-weight="bold" font-size="36" fill="#ff7f50">50+</text>
+                <text x="400" y="30" font-family="Arial" font-size="16" fill="white">Categories</text>
+            </g>
+        </g>
+        
+        <!-- Hero Image -->
+        <g transform="translate(750,50)">
+            <rect width="400" height="400" rx="12" fill="#ff7f50" opacity="0.1"/>
+            <!-- Placeholder for hero image -->
+        </g>
+    </g>
+    
+    <!-- Popular Categories -->
+    <g transform="translate(100,600)">
+        <text font-family="Arial" font-weight="bold" font-size="24" fill="#1a365d">Popular Categories</text>
+        
+        <!-- Category Cards -->
+        <g transform="translate(0,40)">
+            <!-- Design -->
+            <rect width="250" height="120" rx="12" fill="white"/>
+            <circle cx="50" cy="80" r="30" fill="#ff7f50" opacity="0.1"/>
+            <text x="100" y="70" font-family="Arial" font-weight="bold" font-size="16" fill="#1a365d">Design</text>
+            <text x="100" y="90" font-family="Arial" font-size="14" fill="#4a5568">1,234 courses</text>
+            
+            <!-- Development -->
+            <g transform="translate(270)">
+                <rect width="250" height="120" rx="12" fill="white"/>
+                <circle cx="50" cy="80" r="30" fill="#7c9082" opacity="0.1"/>
+                <text x="100" y="70" font-family="Arial" font-weight="bold" font-size="16" fill="#1a365d">Development</text>
+                <text x="100" y="90" font-family="Arial" font-size="14" fill="#4a5568">2,345 courses</text>
+            </g>
+            
+            <!-- Business -->
+            <g transform="translate(540)">
+                <rect width="250" height="120" rx="12" fill="white"/>
+                <circle cx="50" cy="80" r="30" fill="#1a365d" opacity="0.1"/>
+                <text x="100" y="70" font-family="Arial" font-weight="bold" font-size="16" fill="#1a365d">Business</text>
+                <text x="100" y="90" font-family="Arial" font-size="14" fill="#4a5568">1,876 courses</text>
+            </g>
+            
+            <!-- Marketing -->
+            <g transform="translate(810)">
+                <rect width="250" height="120" rx="12" fill="white"/>
+                <circle cx="50" cy="80" r="30" fill="#ff7f50" opacity="0.1"/>
+                <text x="100" y="70" font-family="Arial" font-weight="bold" font-size="16" fill="#1a365d">Marketing</text>
+                <text x="100" y="90" font-family="Arial" font-size="14" fill="#4a5568">1,543 courses</text>
+            </g>
+        </g>
+    </g>
+    
+    <!-- Featured Courses -->
+    <g transform="translate(0,800)" opacity="0">
+        <!-- This section would continue below -->
+    </g>
+
+
+
+
+
+    <!-- Featured Courses -->
+    <g transform="translate(100,800)">
+        <!-- Section Header -->
+        <text font-family="Arial" font-weight="bold" font-size="24" fill="#1a365d">Trending Courses</text>
+        
+        <!-- Course Cards -->
+        <g transform="translate(0,40)">
+            <!-- Course 1: UX Design -->
+            <rect width="270" height="300" rx="12" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+            <rect width="270" height="150" rx="12" fill="#1a365d"/>
+            <text x="20" y="180" font-family="Arial" font-weight="bold" font-size="16" fill="#1a365d">UX Design Fundamentals</text>
+            <text x="20" y="200" font-family="Arial" font-size="14" fill="#4a5568">Sarah Chen • 4.9 ★</text>
+            <text x="20" y="230" font-family="Arial" font-weight="bold" font-size="16" fill="#ff7f50">$89.99</text>
+            <rect x="20" y="250" width="100" height="30" rx="15" fill="#ff7f50"/>
+            <text x="70" y="270" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Bestseller</text>
+            
+            <!-- Course 2: Data Science -->
+            <g transform="translate(300)">
+                <rect width="270" height="300" rx="12" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+                <rect width="270" height="150" rx="12" fill="#4c51bf"/>
+                <text x="20" y="180" font-family="Arial" font-weight="bold" font-size="16" fill="#1a365d">Python for Data Science</text>
+                <text x="20" y="200" font-family="Arial" font-size="14" fill="#4a5568">Michael Rodriguez • 4.7 ★</text>
+                <text x="20" y="230" font-family="Arial" font-weight="bold" font-size="16" fill="#4c51bf">$79.99</text>
+                <rect x="20" y="250" width="100" height="30" rx="15" fill="#4c51bf"/>
+                <text x="70" y="270" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Popular</text>
+            </g>
+            
+            <!-- Course 3: Web Development -->
+            <g transform="translate(600)">
+                <rect width="270" height="300" rx="12" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+                <rect width="270" height="150" rx="12" fill="#38a169"/>
+                <text x="20" y="180" font-family="Arial" font-weight="bold" font-size="16" fill="#1a365d">Full-Stack Web Development</text>
+                <text x="20" y="200" font-family="Arial" font-size="14" fill="#4a5568">Emma Wilson • 4.8 ★</text>
+                <text x="20" y="230" font-family="Arial" font-weight="bold" font-size="16" fill="#38a169">$99.99</text>
+                <rect x="20" y="250" width="120" height="30" rx="15" fill="#38a169"/>
+                <text x="80" y="270" font-family="Arial" font-size="12" fill="white" text-anchor="middle">New Course</text>
+            </g>
+        </g>
+    </g>
+
+    <!-- Learning Paths Section -->
+    <g transform="translate(0,1200)">
+        <rect width="1200" height="300" fill="#1a365d" opacity="0.02"/>
+        <g transform="translate(100,40)">
+            <text font-family="Arial" font-weight="bold" font-size="24" fill="#1a365d">Career Learning Paths</text>
+            
+            <!-- Path Cards -->
+            <g transform="translate(0,40)">
+                <!-- UX Designer Path -->
+                <rect width="230" height="180" rx="12" fill="white" filter="url(#shadow)"/>
+                <text x="20" y="40" font-family="Arial" font-weight="bold" font-size="16" fill="#1a365d">UX Designer</text>
+                <text x="20" y="70" font-family="Arial" font-size="14" fill="#4a5568">8 Courses • 6 months</text>
+                <text x="20" y="100" font-family="Arial" font-size="12" fill="#718096">Learn user research, wireframing...</text>
+                <rect x="20" y="130" width="190" height="30" rx="15" fill="#ff7f50"/>
+                <text x="115" y="150" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Start Learning</text>
+            </g>
+
+            <!-- Data Scientist Path -->
+            <g transform="translate(260,40)">
+                <rect width="230" height="180" rx="12" fill="white" filter="url(#shadow)"/>
+                <text x="20" y="40" font-family="Arial" font-weight="bold" font-size="16" fill="#1a365d">Data Scientist</text>
+                <text x="20" y="70" font-family="Arial" font-size="14" fill="#4a5568">10 Courses • 8 months</text>
+                <text x="20" y="100" font-family="Arial" font-size="12" fill="#718096">Master Python, ML, and data analysis</text>
+                <rect x="20" y="130" width="190" height="30" rx="15" fill="#4c51bf"/>
+                <text x="115" y="150" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Start Learning</text>
+            </g>
+
+            <!-- Full-Stack Developer Path -->
+            <g transform="translate(520,40)">
+                <rect width="230" height="180" rx="12" fill="white" filter="url(#shadow)"/>
+                <text x="20" y="40" font-family="Arial" font-weight="bold" font-size="16" fill="#1a365d">Full-Stack Developer</text>
+                <text x="20" y="70" font-family="Arial" font-size="14" fill="#4a5568">12 Courses • 9 months</text>
+                <text x="20" y="100" font-family="Arial" font-size="12" fill="#718096">Build web apps from front to back</text>
+                <rect x="20" y="130" width="190" height="30" rx="15" fill="#38a169"/>
+                <text x="115" y="150" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Start Learning</text>
+            </g>
+
+            <!-- Cloud Architect Path -->
+            <g transform="translate(780,40)">
+                <rect width="230" height="180" rx="12" fill="white" filter="url(#shadow)"/>
+                <text x="20" y="40" font-family="Arial" font-weight="bold" font-size="16" fill="#1a365d">Cloud Architect</text>
+                <text x="20" y="70" font-family="Arial" font-size="14" fill="#4a5568">9 Courses • 7 months</text>
+                <text x="20" y="100" font-family="Arial" font-size="12" fill="#718096">Design scalable cloud solutions</text>
+                <rect x="20" y="130" width="190" height="30" rx="15" fill="#805ad5"/>
+                <text x="115" y="150" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Start Learning</text>
+            </g>
+        </g>
+    </g>
+
+
+
+
+<!-- How It Works Section -->
+    <g transform="translate(100,1550)">
+        <text font-family="Arial" font-weight="bold" font-size="32" fill="#1a365d">How Praxis Works</text>
+        <text x="0" y="40" font-family="Arial" font-size="16" fill="#4a5568">Your journey to success in 4 simple steps</text>
+        
+        <!-- Steps -->
+        <g transform="translate(0,80)">
+            <!-- Step 1 -->
+            <g transform="translate(0)">
+                <rect width="230" height="200" rx="12" fill="white" filter="url(#step-shadow)"/>
+                <circle cx="115" cy="60" r="30" fill="url(#step-gradient)"/>
+                <text x="115" y="68" font-family="Arial" font-weight="bold" font-size="24" fill="white" text-anchor="middle">1</text>
+                <text x="115" y="120" font-family="Arial" font-weight="bold" font-size="18" fill="#1a365d" text-anchor="middle">Choose Your Path</text>
+                <text x="115" y="150" font-family="Arial" font-size="14" fill="#4a5568" text-anchor="middle">Explore our curated learning</text>
+                <text x="115" y="170" font-family="Arial" font-size="14" fill="#4a5568" text-anchor="middle">paths and courses</text>
+            </g>
+
+            <!-- Connection Line 1 -->
+            <path d="M 230 90 L 260 90" stroke="#e2e8f0" stroke-width="2" stroke-dasharray="5 5"/>
+            
+            <!-- Step 2 -->
+            <g transform="translate(260)">
+                <rect width="230" height="200" rx="12" fill="white" filter="url(#step-shadow)"/>
+                <circle cx="115" cy="60" r="30" fill="url(#step-gradient)"/>
+                <text x="115" y="68" font-family="Arial" font-weight="bold" font-size="24" fill="white" text-anchor="middle">2</text>
+                <text x="115" y="120" font-family="Arial" font-weight="bold" font-size="18" fill="#1a365d" text-anchor="middle">Personalize</text>
+                <text x="115" y="150" font-family="Arial" font-size="14" fill="#4a5568" text-anchor="middle">Take a skill assessment and</text>
+                <text x="115" y="170" font-family="Arial" font-size="14" fill="#4a5568" text-anchor="middle">get your learning plan</text>
+            </g>
+
+            <!-- Connection Line 2 -->
+            <path d="M 490 90 L 520 90" stroke="#e2e8f0" stroke-width="2" stroke-dasharray="5 5"/>
+            
+            <!-- Step 3 -->
+            <g transform="translate(520)">
+                <rect width="230" height="200" rx="12" fill="white" filter="url(#step-shadow)"/>
+                <circle cx="115" cy="60" r="30" fill="url(#step-gradient)"/>
+                <text x="115" y="68" font-family="Arial" font-weight="bold" font-size="24" fill="white" text-anchor="middle">3</text>
+                <text x="115" y="120" font-family="Arial" font-weight="bold" font-size="18" fill="#1a365d" text-anchor="middle">Learn and Practice</text>
+                <text x="115" y="150" font-family="Arial" font-size="14" fill="#4a5568" text-anchor="middle">Access interactive lessons</text>
+                <text x="115" y="170" font-family="Arial" font-size="14" fill="#4a5568" text-anchor="middle">and hands-on projects</text>
+            </g>
+
+            <!-- Connection Line 3 -->
+            <path d="M 750 90 L 790 90" stroke="#e2e8f0" stroke-width="2" stroke-dasharray="5 5"/>
+            
+            <!-- Step 4 -->
+            <g transform="translate(780)">
+                <rect width="230" height="200" rx="12" fill="white" filter="url(#step-shadow)"/>
+                <circle cx="115" cy="60" r="30" fill="url(#step-gradient)"/>
+                <text x="115" y="68" font-family="Arial" font-weight="bold" font-size="24" fill="white" text-anchor="middle">4</text>
+                <text x="115" y="120" font-family="Arial" font-weight="bold" font-size="18" fill="#1a365d" text-anchor="middle">Get Certified</text>
+                <text x="115" y="150" font-family="Arial" font-size="14" fill="#4a5568" text-anchor="middle">Earn industry-recognized</text>
+                <text x="115" y="170" font-family="Arial" font-size="14" fill="#4a5568" text-anchor="middle">certificates</text>
+            </g>
+        </g>
+    </g>
+
+
+    
+
+    <!-- Simplified Login Modal (Overlay) -->
+    <g transform="translate(300,200)" opacity="0">
+        <rect width="600" height="400" rx="12" fill="white" filter="url(#shadow)"/>
+        
+        <!-- Login Header -->
+        <text x="300" y="50" font-family="Arial" font-weight="bold" font-size="24" fill="#1a365d" text-anchor="middle">Welcome Back</text>
+        
+        <!-- Social Login -->
+        <g transform="translate(50,80)">
+            <rect width="500" height="50" rx="25" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+            <text x="250" y="30" font-family="Arial" font-size="16" fill="#4a5568" text-anchor="middle">Continue with Google</text>
+            
+            <rect y="70" width="500" height="50" rx="25" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+            <text x="250" y="100" font-family="Arial" font-size="16" fill="#4a5568" text-anchor="middle">Continue with Facebook</text>
+        </g>
+        
+        <!-- Divider -->
+        <g transform="translate(50,220)">
+            <line x1="0" y1="0" x2="500" y2="0" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="250" y="20" font-family="Arial" font-size="14" fill="#4a5568" text-anchor="middle">or</text>
+        </g>
+        
+        <!-- Email Login -->
+        <g transform="translate(50,260)">
+            <rect width="500" height="50" rx="25" fill="#ff7f50"/>
+            <text x="250" y="30" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Continue with Email</text>
+        </g>
+        
+        <!-- Footer -->
+        <text x="300" y="350" font-family="Arial" font-size="14" fill="#4a5568" text-anchor="middle">Don't have an account? Sign up</text>
+    </g>
+
+    <!-- Footer -->
+    <g transform="translate(0,1920)">
+        <rect width="1200" height="150" fill="#1a365d"/>
+        <text x="600" y="20" font-family="Arial" font-size="14" fill="white" text-anchor="middle">© 2024 Praxis. All rights reserved.</text>
+    </g>
+
+
+
+    
+    <!-- Filters -->
+    <defs>
+        <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+            <feOffset dx="0" dy="2"/>
+            <feComponentTransfer>
+                <feFuncA type="linear" slope="0.3"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+
+
+        <filter id="step-shadow" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.1"/>
+        </filter>
+        <linearGradient id="step-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color: #FF7F50"/>
+            <stop offset="100%" style="stop-color: #FF9F7D"/>
+        </linearGradient>
+    </defs>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1950">
+        
+    
+        <!-- Background -->
+        
+    
+        <rect fill="#f5f7fa" width="1200" height="800"/>
+        
+    
+    
+        <!-- Navigation Bar -->
+        
+    
+        <g>
+            
+        
+            <rect filter="url(#shadow)" fill="white" width="1200" height="70"/>
+            
+        
+        
+            <!-- Logo -->
+            
+        
+            <g transform="translate(40,20)">
+                
+            
+                <circle fill="#ff7f50" cx="15" cy="15" r="15"/>
+                
+            
+                <text fill="#1a365d" font-family="Arial" font-size="20" font-weight="bold" x="40" y="23">
+                    PRAXIS
+                </text>
+                
+        
+            </g>
+            
+        
+        
+            <!-- Nav Links -->
+            
+        
+            <g transform="translate(200,25)">
+                
+            
+                <text fill="#1a365d" font-family="Arial" font-size="14">
+                    Browse
+                </text>
+                
+            
+                <text fill="#1a365d" font-family="Arial" font-size="14" x="100">
+                    Categories
+                </text>
+                
+            
+                <text fill="#1a365d" font-family="Arial" font-size="14" x="200">
+                    Teach
+                </text>
+                
+            
+                <text fill="#1a365d" font-family="Arial" font-size="14" x="300">
+                    Enterprise
+                </text>
+                
+        
+            </g>
+            
+        
+        
+            <!-- Auth Buttons -->
+            
+        
+            <g transform="translate(900,15)">
+                
+            
+                <rect stroke-width="1" fill="white" stroke="#1a365d" width="100" height="40" rx="20"/>
+                
+            
+                <text text-anchor="middle" fill="#1a365d" font-family="Arial" font-size="14" x="50" y="25">
+                    Log In
+                </text>
+                
+            
+            
+                <rect fill="#ff7f50" x="120" width="100" height="40" rx="20"/>
+                
+            
+                <text text-anchor="middle" fill="white" font-family="Arial" font-size="14" x="170" y="25">
+                    Sign Up
+                </text>
+                
+        
+            </g>
+            
+    
+        </g>
+        
+    
+    
+        <!-- Hero Section -->
+        
+    
+        <g transform="translate(0,70)">
+            
+        
+            <rect fill="#1a365d" width="1200" height="500"/>
+            
+        
+        
+            <!-- Hero Content -->
+            
+        
+            <g transform="translate(100,100)">
+                
+            
+                <text fill="white" font-family="Arial" font-size="48" font-weight="bold">
+                    Learn Without Limits
+                </text>
+                
+            
+                <text opacity="0.8" fill="white" font-family="Arial" font-size="20" x="0" y="60">
+                    Master new skills from expert instructors
+                </text>
+                
+            
+            
+                <!-- Search Bar -->
+                
+            
+                <rect fill="white" y="100" width="600" height="60" rx="30"/>
+                
+            
+                <text fill="#4a5568" font-family="Arial" font-size="16" x="30" y="138">
+                    Search for courses...
+                </text>
+                
+            
+            
+                <!-- Stats -->
+                
+            
+                <g transform="translate(0,200)">
+                    
+                
+                    <text fill="#ff7f50" font-family="Arial" font-size="36" font-weight="bold">
+                        5M+
+                    </text>
+                    
+                
+                    <text fill="white" font-family="Arial" font-size="16" x="0" y="30">
+                        Students
+                    </text>
+                    
+                
+                
+                    <text fill="#ff7f50" font-family="Arial" font-size="36" font-weight="bold" x="200">
+                        1000+
+                    </text>
+                    
+                
+                    <text fill="white" font-family="Arial" font-size="16" x="200" y="30">
+                        Courses
+                    </text>
+                    
+                
+                
+                    <text fill="#ff7f50" font-family="Arial" font-size="36" font-weight="bold" x="400">
+                        50+
+                    </text>
+                    
+                
+                    <text fill="white" font-family="Arial" font-size="16" x="400" y="30">
+                        Categories
+                    </text>
+                    
+            
+                </g>
+                
+        
+            </g>
+            
+        
+        
+            <!-- Hero Image -->
+            
+        
+            <g transform="translate(750,50)">
+                
+            
+                <rect opacity="0.1" fill="#ff7f50" width="400" height="400" rx="12"/>
+                
+            
+                <!-- Placeholder for hero image -->
+                
+        
+            </g>
+            
+    
+        </g>
+        
+    
+    
+        <!-- Popular Categories -->
+        
+    
+        <g transform="translate(100,600)">
+            
+        
+            <text fill="#1a365d" font-family="Arial" font-size="24" font-weight="bold">
+                Popular Categories
+            </text>
+            
+        
+        
+            <!-- Category Cards -->
+            
+        
+            <g transform="translate(0,40)">
+                
+            
+                <!-- Design -->
+                
+            
+                <rect fill="white" width="250" height="120" rx="12"/>
+                
+            
+                <circle opacity="0.1" fill="#ff7f50" cx="50" cy="80" r="30"/>
+                
+            
+                <text fill="#1a365d" font-family="Arial" font-size="16" font-weight="bold" x="100" y="70">
+                    Design
+                </text>
+                
+            
+                <text fill="#4a5568" font-family="Arial" font-size="14" x="100" y="90">
+                    1,234 courses
+                </text>
+                
+            
+            
+                <!-- Development -->
+                
+            
+                <g transform="translate(270)">
+                    
+                
+                    <rect fill="white" width="250" height="120" rx="12"/>
+                    
+                
+                    <circle opacity="0.1" fill="#7c9082" cx="50" cy="80" r="30"/>
+                    
+                
+                    <text fill="#1a365d" font-family="Arial" font-size="16" font-weight="bold" x="100" y="70">
+                        Development
+                    </text>
+                    
+                
+                    <text fill="#4a5568" font-family="Arial" font-size="14" x="100" y="90">
+                        2,345 courses
+                    </text>
+                    
+            
+                </g>
+                
+            
+            
+                <!-- Business -->
+                
+            
+                <g transform="translate(540)">
+                    
+                
+                    <rect fill="white" width="250" height="120" rx="12"/>
+                    
+                
+                    <circle opacity="0.1" fill="#1a365d" cx="50" cy="80" r="30"/>
+                    
+                
+                    <text fill="#1a365d" font-family="Arial" font-size="16" font-weight="bold" x="100" y="70">
+                        Business
+                    </text>
+                    
+                
+                    <text fill="#4a5568" font-family="Arial" font-size="14" x="100" y="90">
+                        1,876 courses
+                    </text>
+                    
+            
+                </g>
+                
+            
+            
+                <!-- Marketing -->
+                
+            
+                <g transform="translate(810)">
+                    
+                
+                    <rect fill="white" width="250" height="120" rx="12"/>
+                    
+                
+                    <circle opacity="0.1" fill="#ff7f50" cx="50" cy="80" r="30"/>
+                    
+                
+                    <text fill="#1a365d" font-family="Arial" font-size="16" font-weight="bold" x="100" y="70">
+                        Marketing
+                    </text>
+                    
+                
+                    <text fill="#4a5568" font-family="Arial" font-size="14" x="100" y="90">
+                        1,543 courses
+                    </text>
+                    
+            
+                </g>
+                
+        
+            </g>
+            
+    
+        </g>
+        
+    
+    
+        <!-- Featured Courses -->
+        
+    
+        <g opacity="0" transform="translate(0,800)">
+            
+        
+            <!-- This section would continue below -->
+            
+    
+        </g>
+        
+
+
+
+
+
+    
+        <!-- Featured Courses -->
+        
+    
+        <g transform="translate(100,800)">
+            
+        
+            <!-- Section Header -->
+            
+        
+            <text fill="#1a365d" font-family="Arial" font-size="24" font-weight="bold">
+                Trending Courses
+            </text>
+            
+        
+        
+            <!-- Course Cards -->
+            
+        
+            <g transform="translate(0,40)">
+                
+            
+                <!-- Course 1: UX Design -->
+                
+            
+                <rect stroke-width="1" fill="white" stroke="#e2e8f0" width="270" height="300" rx="12"/>
+                
+            
+                <rect fill="#1a365d" width="270" height="150" rx="12"/>
+                
+            
+                <text fill="#1a365d" font-family="Arial" font-size="16" font-weight="bold" x="20" y="180">
+                    UX Design Fundamentals
+                </text>
+                
+            
+                <text fill="#4a5568" font-family="Arial" font-size="14" x="20" y="200">
+                    Sarah Chen • 4.9 ★
+                </text>
+                
+            
+                <text fill="#ff7f50" font-family="Arial" font-size="16" font-weight="bold" x="20" y="230">
+                    $89.99
+                </text>
+                
+            
+                <rect fill="#ff7f50" x="20" y="250" width="100" height="30" rx="15"/>
+                
+            
+                <text text-anchor="middle" fill="white" font-family="Arial" font-size="12" x="70" y="270">
+                    Bestseller
+                </text>
+                
+            
+            
+                <!-- Course 2: Data Science -->
+                
+            
+                <g transform="translate(300)">
+                    
+                
+                    <rect stroke-width="1" fill="white" stroke="#e2e8f0" width="270" height="300" rx="12"/>
+                    
+                
+                    <rect fill="#4c51bf" width="270" height="150" rx="12"/>
+                    
+                
+                    <text fill="#1a365d" font-family="Arial" font-size="16" font-weight="bold" x="20" y="180">
+                        Python for Data Science
+                    </text>
+                    
+                
+                    <text fill="#4a5568" font-family="Arial" font-size="14" x="20" y="200">
+                        Michael Rodriguez • 4.7 ★
+                    </text>
+                    
+                
+                    <text fill="#4c51bf" font-family="Arial" font-size="16" font-weight="bold" x="20" y="230">
+                        $79.99
+                    </text>
+                    
+                
+                    <rect fill="#4c51bf" x="20" y="250" width="100" height="30" rx="15"/>
+                    
+                
+                    <text text-anchor="middle" fill="white" font-family="Arial" font-size="12" x="70" y="270">
+                        Popular
+                    </text>
+                    
+            
+                </g>
+                
+            
+            
+                <!-- Course 3: Web Development -->
+                
+            
+                <g transform="translate(600)">
+                    
+                
+                    <rect stroke-width="1" fill="white" stroke="#e2e8f0" width="270" height="300" rx="12"/>
+                    
+                
+                    <rect fill="#38a169" width="270" height="150" rx="12"/>
+                    
+                
+                    <text fill="#1a365d" font-family="Arial" font-size="16" font-weight="bold" x="20" y="180">
+                        Full-Stack Web Development
+                    </text>
+                    
+                
+                    <text fill="#4a5568" font-family="Arial" font-size="14" x="20" y="200">
+                        Emma Wilson • 4.8 ★
+                    </text>
+                    
+                
+                    <text fill="#38a169" font-family="Arial" font-size="16" font-weight="bold" x="20" y="230">
+                        $99.99
+                    </text>
+                    
+                
+                    <rect fill="#38a169" x="20" y="250" width="120" height="30" rx="15"/>
+                    
+                
+                    <text text-anchor="middle" fill="white" font-family="Arial" font-size="12" x="80" y="270">
+                        New Course
+                    </text>
+                    
+            
+                </g>
+                
+        
+            </g>
+            
+    
+        </g>
+        
+
+    
+        <!-- Learning Paths Section -->
+        
+    
+        <g transform="translate(0,1200)">
+            
+        
+            <rect opacity="0.02" fill="#1a365d" width="1200" height="300"/>
+            
+        
+            <g transform="translate(100,40)">
+                
+            
+                <text fill="#1a365d" font-family="Arial" font-size="24" font-weight="bold">
+                    Career Learning Paths
+                </text>
+                
+            
+            
+                <!-- Path Cards -->
+                
+            
+                <g transform="translate(0,40)">
+                    
+                
+                    <!-- UX Designer Path -->
+                    
+                
+                    <rect filter="url(#shadow)" fill="white" width="230" height="180" rx="12"/>
+                    
+                
+                    <text fill="#1a365d" font-family="Arial" font-size="16" font-weight="bold" x="20" y="40">
+                        UX Designer
+                    </text>
+                    
+                
+                    <text fill="#4a5568" font-family="Arial" font-size="14" x="20" y="70">
+                        8 Courses • 6 months
+                    </text>
+                    
+                
+                    <text fill="#718096" font-family="Arial" font-size="12" x="20" y="100">
+                        Learn user research, wireframing...
+                    </text>
+                    
+                
+                    <rect fill="#ff7f50" x="20" y="130" width="190" height="30" rx="15"/>
+                    
+                
+                    <text text-anchor="middle" fill="white" font-family="Arial" font-size="14" x="115" y="150">
+                        Start Learning
+                    </text>
+                    
+            
+                </g>
+                
+
+            
+                <!-- Data Scientist Path -->
+                
+            
+                <g transform="translate(260,40)">
+                    
+                
+                    <rect filter="url(#shadow)" fill="white" width="230" height="180" rx="12"/>
+                    
+                
+                    <text fill="#1a365d" font-family="Arial" font-size="16" font-weight="bold" x="20" y="40">
+                        Data Scientist
+                    </text>
+                    
+                
+                    <text fill="#4a5568" font-family="Arial" font-size="14" x="20" y="70">
+                        10 Courses • 8 months
+                    </text>
+                    
+                
+                    <text fill="#718096" font-family="Arial" font-size="12" x="20" y="100">
+                        Master Python, ML, and data analysis
+                    </text>
+                    
+                
+                    <rect fill="#4c51bf" x="20" y="130" width="190" height="30" rx="15"/>
+                    
+                
+                    <text text-anchor="middle" fill="white" font-family="Arial" font-size="14" x="115" y="150">
+                        Start Learning
+                    </text>
+                    
+            
+                </g>
+                
+
+            
+                <!-- Full-Stack Developer Path -->
+                
+            
+                <g transform="translate(520,40)">
+                    
+                
+                    <rect filter="url(#shadow)" fill="white" width="230" height="180" rx="12"/>
+                    
+                
+                    <text fill="#1a365d" font-family="Arial" font-size="16" font-weight="bold" x="20" y="40">
+                        Full-Stack Developer
+                    </text>
+                    
+                
+                    <text fill="#4a5568" font-family="Arial" font-size="14" x="20" y="70">
+                        12 Courses • 9 months
+                    </text>
+                    
+                
+                    <text fill="#718096" font-family="Arial" font-size="12" x="20" y="100">
+                        Build web apps from front to back
+                    </text>
+                    
+                
+                    <rect fill="#38a169" x="20" y="130" width="190" height="30" rx="15"/>
+                    
+                
+                    <text text-anchor="middle" fill="white" font-family="Arial" font-size="14" x="115" y="150">
+                        Start Learning
+                    </text>
+                    
+            
+                </g>
+                
+
+            
+                <!-- Cloud Architect Path -->
+                
+            
+                <g transform="translate(780,40)">
+                    
+                
+                    <rect filter="url(#shadow)" fill="white" width="230" height="180" rx="12"/>
+                    
+                
+                    <text fill="#1a365d" font-family="Arial" font-size="16" font-weight="bold" x="20" y="40">
+                        Cloud Architect
+                    </text>
+                    
+                
+                    <text fill="#4a5568" font-family="Arial" font-size="14" x="20" y="70">
+                        9 Courses • 7 months
+                    </text>
+                    
+                
+                    <text fill="#718096" font-family="Arial" font-size="12" x="20" y="100">
+                        Design scalable cloud solutions
+                    </text>
+                    
+                
+                    <rect fill="#805ad5" x="20" y="130" width="190" height="30" rx="15"/>
+                    
+                
+                    <text text-anchor="middle" fill="white" font-family="Arial" font-size="14" x="115" y="150">
+                        Start Learning
+                    </text>
+                    
+            
+                </g>
+                
+        
+            </g>
+            
+    
+        </g>
+        
+
+
+
+
+
+        <!-- How It Works Section -->
+        
+    
+        <g transform="translate(100,1550)">
+            
+        
+            <text fill="#1a365d" font-family="Arial" font-size="32" font-weight="bold">
+                How Praxis Works
+            </text>
+            
+        
+            <text fill="#4a5568" font-family="Arial" font-size="16" x="0" y="40">
+                Your journey to success in 4 simple steps
+            </text>
+            
+        
+        
+            <!-- Steps -->
+            
+        
+            <g transform="translate(0,80)">
+                
+            
+                <!-- Step 1 -->
+                
+            
+                <g transform="translate(0)">
+                    
+                
+                    <rect filter="url(#step-shadow)" fill="white" width="230" height="200" rx="12"/>
+                    
+                
+                    <circle fill="url(#step-gradient)" cx="115" cy="60" r="30"/>
+                    
+                
+                    <text text-anchor="middle" fill="white" font-family="Arial" font-size="24" font-weight="bold" x="115" y="68">
+                        1
+                    </text>
+                    
+                
+                    <text text-anchor="middle" fill="#1a365d" font-family="Arial" font-size="18" font-weight="bold" x="115" y="120">
+                        Choose Your Path
+                    </text>
+                    
+                
+                    <text text-anchor="middle" fill="#4a5568" font-family="Arial" font-size="14" x="115" y="150">
+                        Explore our curated learning
+                    </text>
+                    
+                
+                    <text text-anchor="middle" fill="#4a5568" font-family="Arial" font-size="14" x="115" y="170">
+                        paths and courses
+                    </text>
+                    
+            
+                </g>
+                
+
+            
+                <!-- Connection Line 1 -->
+                
+            
+                <path stroke-width="2" stroke="#e2e8f0" stroke-dasharray="5 5" d="M 230 90 L 260 90"/>
+                
+            
+            
+                <!-- Step 2 -->
+                
+            
+                <g transform="translate(260)">
+                    
+                
+                    <rect filter="url(#step-shadow)" fill="white" width="230" height="200" rx="12"/>
+                    
+                
+                    <circle fill="url(#step-gradient)" cx="115" cy="60" r="30"/>
+                    
+                
+                    <text text-anchor="middle" fill="white" font-family="Arial" font-size="24" font-weight="bold" x="115" y="68">
+                        2
+                    </text>
+                    
+                
+                    <text text-anchor="middle" fill="#1a365d" font-family="Arial" font-size="18" font-weight="bold" x="115" y="120">
+                        Personalize
+                    </text>
+                    
+                
+                    <text text-anchor="middle" fill="#4a5568" font-family="Arial" font-size="14" x="115" y="150">
+                        Take a skill assessment and
+                    </text>
+                    
+                
+                    <text text-anchor="middle" fill="#4a5568" font-family="Arial" font-size="14" x="115" y="170">
+                        get your learning plan
+                    </text>
+                    
+            
+                </g>
+                
+
+            
+                <!-- Connection Line 2 -->
+                
+            
+                <path stroke-width="2" stroke="#e2e8f0" stroke-dasharray="5 5" d="M 490 90 L 520 90"/>
+                
+            
+            
+                <!-- Step 3 -->
+                
+            
+                <g transform="translate(520)">
+                    
+                
+                    <rect filter="url(#step-shadow)" fill="white" width="230" height="200" rx="12"/>
+                    
+                
+                    <circle fill="url(#step-gradient)" cx="115" cy="60" r="30"/>
+                    
+                
+                    <text text-anchor="middle" fill="white" font-family="Arial" font-size="24" font-weight="bold" x="115" y="68">
+                        3
+                    </text>
+                    
+                
+                    <text text-anchor="middle" fill="#1a365d" font-family="Arial" font-size="18" font-weight="bold" x="115" y="120">
+                        Learn and Practice
+                    </text>
+                    
+                
+                    <text text-anchor="middle" fill="#4a5568" font-family="Arial" font-size="14" x="115" y="150">
+                        Access interactive lessons
+                    </text>
+                    
+                
+                    <text text-anchor="middle" fill="#4a5568" font-family="Arial" font-size="14" x="115" y="170">
+                        and hands-on projects
+                    </text>
+                    
+            
+                </g>
+                
+
+            
+                <!-- Connection Line 3 -->
+                
+            
+                <path stroke-width="2" stroke="#e2e8f0" stroke-dasharray="5 5" d="M 750 90 L 790 90"/>
+                
+            
+            
+                <!-- Step 4 -->
+                
+            
+                <g transform="translate(780)">
+                    
+                
+                    <rect filter="url(#step-shadow)" fill="white" width="230" height="200" rx="12"/>
+                    
+                
+                    <circle fill="url(#step-gradient)" cx="115" cy="60" r="30"/>
+                    
+                
+                    <text text-anchor="middle" fill="white" font-family="Arial" font-size="24" font-weight="bold" x="115" y="68">
+                        4
+                    </text>
+                    
+                
+                    <text text-anchor="middle" fill="#1a365d" font-family="Arial" font-size="18" font-weight="bold" x="115" y="120">
+                        Get Certified
+                    </text>
+                    
+                
+                    <text text-anchor="middle" fill="#4a5568" font-family="Arial" font-size="14" x="115" y="150">
+                        Earn industry-recognized
+                    </text>
+                    
+                
+                    <text text-anchor="middle" fill="#4a5568" font-family="Arial" font-size="14" x="115" y="170">
+                        certificates
+                    </text>
+                    
+            
+                </g>
+                
+        
+            </g>
+            
+    
+        </g>
+        
+
+
+    
+
+    
+        <!-- Simplified Login Modal (Overlay) -->
+        
+    
+        <g opacity="0" transform="translate(300,200)">
+            
+        
+            <rect filter="url(#shadow)" fill="white" width="600" height="400" rx="12"/>
+            
+        
+        
+            <!-- Login Header -->
+            
+        
+            <text text-anchor="middle" fill="#1a365d" font-family="Arial" font-size="24" font-weight="bold" x="300" y="50">
+                Welcome Back
+            </text>
+            
+        
+        
+            <!-- Social Login -->
+            
+        
+            <g transform="translate(50,80)">
+                
+            
+                <rect stroke-width="1" fill="white" stroke="#e2e8f0" width="500" height="50" rx="25"/>
+                
+            
+                <text text-anchor="middle" fill="#4a5568" font-family="Arial" font-size="16" x="250" y="30">
+                    Continue with Google
+                </text>
+                
+            
+            
+                <rect stroke-width="1" fill="white" stroke="#e2e8f0" y="70" width="500" height="50" rx="25"/>
+                
+            
+                <text text-anchor="middle" fill="#4a5568" font-family="Arial" font-size="16" x="250" y="100">
+                    Continue with Facebook
+                </text>
+                
+        
+            </g>
+            
+        
+        
+            <!-- Divider -->
+            
+        
+            <g transform="translate(50,220)">
+                
+            
+                <line x1="0" y1="0" x2="500" y2="0" stroke="#E2E8F0" stroke-width="1"/>
+                
+            
+                <text text-anchor="middle" fill="#4a5568" font-family="Arial" font-size="14" x="250" y="20">
+                    or
+                </text>
+                
+        
+            </g>
+            
+        
+        
+            <!-- Email Login -->
+            
+        
+            <g transform="translate(50,260)">
+                
+            
+                <rect fill="#ff7f50" width="500" height="50" rx="25"/>
+                
+            
+                <text text-anchor="middle" fill="white" font-family="Arial" font-size="16" x="250" y="30">
+                    Continue with Email
+                </text>
+                
+        
+            </g>
+            
+        
+        
+            <!-- Footer -->
+            
+        
+            <text text-anchor="middle" fill="#4a5568" font-family="Arial" font-size="14" x="300" y="350">
+                Don't have an account? Sign up
+            </text>
+            
+    
+        </g>
+        
+
+    
+        <!-- Footer -->
+        
+    
+        <g transform="translate(0,1920)">
+            
+        
+            <rect fill="#1a365d" width="1200" height="150"/>
+            
+        
+            <text text-anchor="middle" fill="white" font-family="Arial" font-size="14" x="600" y="20">
+                © 2024 Praxis. All rights reserved.
+            </text>
+            
+    
+        </g>
+        
+
+
+
+    
+    
+        <!-- Filters -->
+        
+    
+        <defs>
+            
+        
+            <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+                
+            
+                <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+                
+            
+                <feOffset dx="0" dy="2"/>
+                
+            
+                <feComponentTransfer>
+                    
+                
+                    <feFuncA type="linear" slope="0.3"/>
+                    
+            
+                </feComponentTransfer>
+                
+            
+                <feMerge>
+                    
+                
+                    <feMergeNode/>
+                    
+                
+                    <feMergeNode in="SourceGraphic"/>
+                    
+            
+                </feMerge>
+                
+        
+            </filter>
+            
+
+
+        
+            <filter id="step-shadow" x="-20%" y="-20%" width="140%" height="140%">
+                
+            
+                <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.1"/>
+                
+        
+            </filter>
+            
+        
+            <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="step-gradient">
+                
+            
+                <stop style="stop-color: #FF7F50" offset="0%"/>
+                
+            
+                <stop style="stop-color: #FF9F7D" offset="100%"/>
+                
+        
+            </linearGradient>
+            
+    
+        </defs>
+        
+
+    </svg>
+</svg>

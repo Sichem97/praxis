@@ -1,0 +1,21 @@
+<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle representing continuous learning -->
+  <circle cx="50" cy="50" r="35" fill="#1A365D" />
+  
+  <!-- Spiral path representing growth and progress -->
+  <path d="M 50 50 Q 65 35, 80 50 T 50 65 T 45 45" 
+        fill="none" 
+        stroke="#7C9082" 
+        stroke-width="4"
+        stroke-linecap="round" />
+  
+  <!-- Accent dot -->
+  <circle cx="80" cy="50" r="4" fill="#FF7F50" />
+  
+  <!-- Text "PRAXIS" -->
+  <text x="110" y="63" 
+        font-family="Arial" 
+        font-weight="bold" 
+        font-size="40" 
+        fill="#1A365D">PRAXIS</text>
+</svg>
