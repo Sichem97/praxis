@@ -1,0 +1,34 @@
+.btn-purple {
+    background-color: #6f42c1;
+    color: #fff;
+  }
+  .btn-purple:hover {
+    background-color: #5a3598;
+    color: #fff;
+  }
+  .card {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  h2 {
+    color: #1A325A;
+   
+  }
+  .custom-left-align {
+    text-align: left;
+  }
+  .btn{
+    border-radius: 25px;
+  }
+  .card{
+    height: 30vh;
+    border-radius: 15px;
+  }
+  h5{
+    font-size: smaller;
+  }
+  .text-muted{
+    font-size: 10px;
+  }
+  
