@@ -1,35 +1,105 @@
-import React from 'react';
-import "./StepsSection";
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Header: React.FC = () => {
   return (
-    <header className="p-3 text-bg-">
-    <div className="container">
-      <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/" className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-          <h1>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-circle-fill" viewBox="0 0 16 16">
-          <circle cx="8" cy="8" r="8"/>
-        </svg>
-            Praxis</h1>
-        </a>
-        
-        <ul className="nav col-12 col-lg-auto me-lg-auto mb-4 justify-content-center mb-md-0">
-          <li><a href="#" className="nav-link px-2 text-secondary">Browse</a></li>
-          <li><a href="#" className="nav-link px-2 text-darkbleu">Categories</a></li>
-          <li><a href="#" className="nav-link px-2 text-darkbleu">Teach</a></li>
-          <li><a href="#" className="nav-link px-2 text-darkbleu">Enteprise</a></li>
-        </ul>
-
-        
-
-        <div className="text-end">
-          <button type="button" className="btn btn-outline-light me-2 text-dark" >Login</button>
-          <button type="button" className="btn btn-sign">Sign-up</button>
+    <nav
+      className="navbar"
+      style={{
+        backgroundColor: "white",
+        padding: "10px 50px",
+        boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "space-between",
+      }}
+    >
+      {/* Left section: Logo and links */}
+      <div style={{ display: "flex", alignItems: "center", gap: "30px" }}>
+        {/* Logo */}
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "10px",
+          }}
+        >
+          <div
+            style={{
+              width: "12px",
+              height: "12px",
+              backgroundColor: "#FF6D44",
+              borderRadius: "50%",
+            }}
+          ></div>
+          <span
+            style={{
+              fontWeight: "bold",
+              fontSize: "18px",
+              color: "#2A2A2A",
+            }}
+          >
+            PRAXIS
+          </span>
         </div>
+
+        {/* Navigation Links */}
+        <ul
+          style={{
+            listStyle: "none",
+            display: "flex",
+            gap: "20px",
+            margin: "0",
+            padding: "0",
+          }}
+        >
+          {["Browse", "Categories", "Teach", "Enterprise"].map((link) => (
+            <li key={link}>
+              <a
+                href="#"
+                style={{
+                  textDecoration: "none",
+                  color: "#2A2A2A",
+                  fontSize: "16px",
+                  position: "relative",
+                  top: "-10px", // To align links slightly above the logo
+                }}
+              >
+                {link}
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
-    </div>
-  </header>
+
+      {/* Right section: Buttons */}
+      <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+        <button
+          className="btn btn-outline-secondary"
+          style={{
+            borderRadius: "20px",
+            border: "1px solid #2A2A2A",
+            fontSize: "14px",
+            color: "#2A2A2A",
+            padding: "5px 20px",
+          }}
+        >
+          Log In
+        </button>
+        <button
+          className="btn"
+          style={{
+            borderRadius: "20px",
+            backgroundColor: "#FF6D44",
+            color: "white",
+            fontSize: "14px",
+            padding: "5px 20px",
+          }}
+        >
+          Sign Up
+        </button>
+      </div>
+    </nav>
   );
 };
 

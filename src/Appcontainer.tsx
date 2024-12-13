@@ -19,15 +19,15 @@ const HeroSection: React.FC = () => {
           </div>
           <div className="d-flex justify-content-space-between gap- mt-4">
             <div>
-              <h3 className="fw-bold text-warning">5M+</h3>
+              <h3 className="fw-bold text-warm">5M+</h3>
               <p>Students</p>
             </div>
             <div>
-              <h3 className="fw-bold text-warning">1000+</h3>
+              <h3 className="fw-bold text-warm">1000+</h3>
               <p>Courses</p>
             </div>
             <div>
-              <h3 className="fw-bold text-warning">50+</h3>
+              <h3 className="fw-bold text-warm">50+</h3>
               <p>Categories</p>
             </div>
           </div>
